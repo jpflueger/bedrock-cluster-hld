@@ -1,0 +1,14 @@
+subcomponents:
+  pod-identity:
+    subcomponents:
+      aad-pod-identity:
+        config:
+          azureIdentities:
+            - name: "mi-aks-bedrock-azure-mi-app1"
+              namespace: "default"
+              type: 0
+              resourceID: "/subscriptions/7060bca0-7a3c-44bd-b54c-4bb1e9facfac/resourcegroups/rg-jupflueg-bedrock-azure-mi/providers/Microsoft.ManagedIdentity/userAssignedIdentities/mi-aks-bedrock-azure-mi-app1"
+              clientID: "56f28a9f-5ef0-417b-b663-78db8e9894dc"
+              binding:
+                name: "mi-aks-bedrock-azure-mi-app1-binding"
+                selector: "mi-aks-bedrock-azure-mi-app1"

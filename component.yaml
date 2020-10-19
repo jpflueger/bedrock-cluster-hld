@@ -1,0 +1,7 @@
+name: default-component
+subcomponents:
+  - name: pod-identity
+    method: git
+    source: 'https://github.com/jpflueger/fabrikate-definitions.git'
+    path: definitions/aad-pod-identity
+    branch: feature/aad-pod-identity
